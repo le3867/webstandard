@@ -1,0 +1,51 @@
+@charset "utf-8";
+html.body{height:100%; width:100%;
+  margin: 0; padding: 0;
+  
+}
+header{
+  margin: 0;
+  border-bottom: 1px solid;
+  background-color: yellowgreen;
+  height: 20%;
+}
+
+header > h1 {
+  color: brown;
+  text-align: center;
+  margin: 0;
+}
+nav{
+  display: blockh;
+  float: left;
+  background-color: orange;
+  width:15%;
+      height: 65vh;
+}
+article{
+  float: left;
+  background-color: paleturquoise;
+  width:85%;
+      height:65vh;
+}
+
+a{
+  text-decoration: none;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+h2{
+  color: blue;
+  text-shadow:3px 3px skyblue;
+}
+footer{
+  background-color: violet;
+  clear: both;
+  height: 15%;
+}
+img{
+ width: 50%;
+ height: 15vh;
+}
