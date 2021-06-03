@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Nanum+Pen+Script&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    /* *{outline:1px solid red} */
+    .container{
+      width:600px; height:100%; margin: 0 auto;
+    }
+    header{
+      background-color: black;
+    }
+    .box1{
+      background-color: black;
+      color:white;
+      height: 30px; line-height: 30px;
+      text-align: right;
+    }
+    .box2{
+      height: 200px;
+      width: 600px;
+      margin:0 auto;
+      background-image: url(https://cdn.pixabay.com/photo/2014/07/31/23/00/wristwatch-407096_960_720.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .box3{
+      height: 30px; line-height: 30px;
+      width: 600px;
+      margin:0 auto;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    ul{
+      list-style-type: none;
+    }
+    ul>li{
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      margin-right: 50px;
+    }
+    .box4{
+      width: 150px;
+      height: 600px;
+      float: left;
+      background-color: skyblue;
+    }
+    .box5{
+      width: 450px;
+      height:600px;
+      float:left;
+      background-color: rgb(179, 214, 228);
+    }
+    .clearfix::after{
+      content:" ";
+      display:block;
+      clear:both;
+    }
+    .box6{
+      height: 100px; line-height: 100px;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    ul>li a{
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <div class="container box1">로그인/회원가입</div>
+</header>
+  <div class="container box2"></div>
+  <div class="container box3">
+    <ul>
+      <li> <a href="#">menu</a></li>
+      <li> <a href="#">menu</a></li>
+      <li> <a href="#">menu</a></li>
+      <li> <a href="#">menu</a></li>
+      <li> <a href="#">menu</a></li>
+    </ul>
+  </div>
+  <div class="container clearfix">
+  <div class="container box4"></div>
+  <div class="container box5">box5</div>
+  </div>
+  <div class="container box6">Copyright(c) 울산KH정보교육원 All Right Reserved</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul{padding-left: 0; list-style-type: none; margin: 0;}
+    
+    a{text-decoration: none; color:inherit;}
+    
+    .footer-contents{
+      width: 90%;
+      text-transform: uppercase;
+      margin:0 auto;
+      margin-bottom:30px;
+    }
+    .footer-contents ul li:nth-child(1){
+      font-weight: bold; padding-bottom: 10px;
+    }
+
+    .footer-contents .footer-contents-1,
+    .footer-contents .footer-contents-2,
+    .footer-contents .footer-contents-3,
+    .footer-contents .footer-contents-4{
+      float:left; margin-right: 10px;
+    }
+    
+    .footer-contents .footer-contents-1{
+      width:150px; height:150px; background-color: orangered; color: white;
+      text-align: center; line-height: 150px;
+    }
+
+    .copyright{text-align: center;}
+    
+    .clearfix:after{
+      content:" "; display: block; clear:both;
+        }
+
+    /* footer 스타일 */
+    .footer-contents ul li{
+      padding:3px 0;
+    }
+    .footer-contents ul .title{
+      font-weight: bold; padding-bottom: 10px;
+    }
+    .footer-contents .emphasis{ font-weight: bolder; color: fuchsia;}
+    .footer-contents .tel {font-size:2em; padding:20px 0;}
+    .footer-contents .account{color: skyblue;}
+
+    .footer-contents .highlight-01{background-color: mediumslateblue; color: white;}
+    .footer-contents .highlight-02{background-color: black;color: white;}
+    .footer-contents .highlight-03{background-color: antiquewhite;}
+  </style>
+
+  
+</head>
+<body>
+  <div class="footer-contents clearfix">
+    <div class="footer-contents-1">
+      airmall
+    </div>
+    <div class="footer-contents-2">
+    <ul>
+      <li class="title"><a href="#">policy</a></li>
+      <li><a href="#">home</a></li>
+      <li><a href="#">agreement</a></li>
+      <li><a href="#" class="emphasis">sit policy</a></li>
+      <li><a href="#">membership</a></li>
+    </ul>
+  </div>
+    <div class="footer-contents-3">
+    <ul>
+      <li class="title">CUSTOMER CENTER</li>
+      <li>평일: 오전09:00~오후10:00</li>
+      <li>점심: 오후12:00~오후13:00 토/일/공휴일 휴무</li>
+      <li class="tel">070-1234-5678</li>
+      <li class="account">국민은행:015-13413-123-01(예금주:홍길동)</li>
+      <li class="account">농협은행:15413-123-01(예금주:홍길동)</li>
+    </ul>
+  </div>
+    <div class="footer-contents-4">
+      <ul>
+        <li class="title">COMPANY INF ORMATION</li>
+        <li>COMPANY:<span class="highlight-01">에어몰</span>PROPRIETOR:홍길동, 이순신</li>
+        <li>TEL:070-1234-5678 E-MAIL:WEBMASTER@HOTMAIL.COM</li>
+        <li>ADDRESS1:우리집</li>
+        <li>ADRRESS2:니네집</li>
+        <li>BUSINESS LICENSE:417-24-78612</li>
+        <li>MAIL ORDER LICENSE:제2022-서울서초-0817호(<span class="highlight-02">사업자정보확인</span>)</li>
+        <li>PERSONAL INFO MANAGER:이상인</li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">Copyright(c) 울산KH정보교육원 <span class="highlight-03">Right Reserved</span></div>
+</body>
+</html>
