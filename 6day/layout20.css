@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* *{outline:1px solid red;} */
+body{margin:0;}
+/* 공통 */
+.content{
+width: 800px; margin: 0 auto;
+}
+
+/* 최상위메뉴 */
+.uppermost{
+  background-color: aqua;
+  height: 30px;
+}
+.uppermost .content-u{
+  background-color: tomato;
+  height:30px;
+}
+
+/* 헤더 */
+.header{
+  background-color: aquamarine;
+  height: 100px;
+}
+.header .content-h{
+  background-color: peru;
+  height: 100px;
+}
+/* 메뉴 */
+.nav{
+  background-color: palegoldenrod;
+}
+.nav .content-n{
+  background-color: pink;
+}
+/* 메인 */
+.main{
+  background-color: palevioletred;
+  height: 400px;
+}
+.main .content-m{
+  background-color: paleturquoise;
+  height: 400px;
+}
+.main .content-m .wrap{
+  height: 100%; border: 10px solid;
+  box-sizing: border-box;
+}
+.main .content-m .wrap .section{
+  width:60%; height: 100%;
+  float: left;
+  background-color: white;
+}
+.main .content-m .wrap .sidemenu{
+  width:20%; height: 100%;
+  float: left;
+  background-color: black;
+}
+.main .content-m .wrap .sidebanner{
+  width:20%; height: 100%;
+  float: left;
+  background-color:darkgrey;
+}
+/* 푸터메뉴 */
+.footermenu{
+  background-color: sandybrown;
+  height: 30px;
+}
+.footermenu .content-fm{
+  background-color: royalblue;
+  height: 30px;
+}
+/* 푸터 */
+.footer{
+  background-color: mediumspringgreen;
+  height: 100px;
+}
+.footer .content-f{
+  background-color: violet;
+  height: 100px;
+}
+/* 유틸 */
+.clearfix::after{
+  content: " "; display: block; clear: both;
+}

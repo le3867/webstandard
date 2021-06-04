@@ -8,7 +8,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Nanum+Pen+Script&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <style>
-    /* *{outline:1px solid red} */
+    *{outline:1px solid red}
+    body{
+      margin: 0;
+    }
     .container{
       width:600px; height:100%; margin: 0 auto;
     }
@@ -40,6 +43,10 @@
     }
     ul{
       list-style-type: none;
+      margin-top: 0;
+    }
+    ul>li a{
+      text-decoration: none;
     }
     ul>li{
       text-decoration: none;
@@ -79,6 +86,7 @@
   <header>
   <div class="container box1">로그인/회원가입</div>
 </header>
+<nav>
   <div class="container box2"></div>
   <div class="container box3">
     <ul>
@@ -89,10 +97,21 @@
       <li> <a href="#">menu</a></li>
     </ul>
   </div>
+</nav>
   <div class="container clearfix">
+    <aside>
   <div class="container box4"></div>
-  <div class="container box5">box5</div>
+    </aside>
+    <main>
+  <div class="container box5">
+    <form>
+      
+    </form>
   </div>
+    </main> 
+  </div>
+  <footer>
   <div class="container box6">Copyright(c) 울산KH정보교육원 All Right Reserved</div>
+</footer>
 </body>
 </html>

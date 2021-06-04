@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <title>Document</title>
+  <style>
+    /* *{outline: 1px solid red;} */
+    body{
+      background-color: rgba(226, 221, 217, 0.185);
+    }
+    ul{
+      list-style: none;
+    }
+    .main{
+      width: 500px; margin: 0 auto;
+    }
+    .box.box1{
+      width:100%; height: 100px; line-height: 100px;
+      font-size:40px;
+      font-weight: 900;
+      text-align: center;
+    }
+    .box.box1 a{
+      color: green;
+      text-decoration: none;
+    }
+    .id1{
+      width: 430px; height: 45px; margin-bottom: 30px;
+    }
+    .id2{
+      float: left;
+      width: 130px; height: 45px; margin-right:12px ;
+    }
+    .id3{
+      display: inline;
+      width: 130px; height: 45px; 
+    }
+    .id4{
+      float: left;
+      width: 140px; height: 50px; margin-right:12px ;
+    }
+    .id5{
+      width: 440px; height: 55px; margin-bottom: 30px;
+    }
+    .id6{
+      width: 440px; height: 55px; margin-bottom: 10px;
+    }
+    .id7{
+      width: 290px; height: 45px; margin-right: 20px; margin-bottom: 10px; float: left;
+    }  
+    .rap{
+      background-color: rgb(5, 180, 5);
+      color: white;
+      width: 120px;
+      height: 50px; line-height: 50px;
+      float: left;
+      text-align: center;
+    }
+    .rap a{
+      text-decoration: none;
+      color: white;
+    }
+    .final{
+      background-color: rgb(5, 180, 5);
+      width: 440px; height: 45px; margin-bottom: 30px;
+      text-align: center; line-height: 45px;
+    }
+    .final a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }
+    .fas.fa-lock{
+      font-size: 20px;
+    }
+    .footer{
+      font-size: 12px; text-align: center;
+      margin-right: 25px;
+    }
+
+    .clearfix::after{
+      content: " ";
+      display: block;
+      clear: both;
+    }
+    footer>div>span{
+      font-weight: bolder;
+    }
+    footer>div>a{
+      text-decoration: none;
+      color: black;
+    }
+   
+  </style>
+</head>
+<body>
+  <div class="main">
+ <div class="box box1"> <a href="http://www.naver.com">NAVER</a></div>
+ <div class="box box2">
+<form>
+  <ul>
+    <li class="id">아이디</li>
+    <li><input type="text" for="user_id" class="id1" type="email" placeholder="@naver.com" style="text-align: right;">
+    <li class="2">비밀번호</li>
+    <li><input type="password" for="user_password" class="id1"></li>
+    <li class="3">비밀번호 재확인</li>
+    <li><input type="password" for="user_password" class="id1" ></li>
+    <li class="4">이름</li>
+    <li><input type="text" for="name" class="id1"></li>
+    <div class="clearfix">
+    <li class="5">생년월일</li>
+    <div>
+    <li><input type="text" for="birth" class="id2" placeholder="년(4자)"></li>
+    <li> 
+      <select name="month" class="id4">
+    <option value="" class="1month">월</option>
+    <option value="" class="1month">1월</option>
+    <option value="" class="2month">2월</option>
+    <option value="" class="3month">3월</option>
+    <option value="" class="4month">4월</option>
+    <option value="" class="5month">5월</option>
+    <option value="" class="6month">6월</option>
+    <option value="" class="7month">7월</option>
+    <option value="" class="8month">8월</option>
+    <option value="" class="9month">9월</option>
+    <option value="" class="10month">10월</option>
+    <option value="" class="11month">11월</option>
+    <option value="" class="12month">12월</option>
+  </select>
+    <li><input type="text" for="birth" class="id3" placeholder="일"></li>
+  </div>
+    <br><br>
+    <li>성별</li>
+    <li>
+      <select name="gender" class="id5">
+        <option value="">성별</option>
+        <option value="">남</option>
+        <option value="">여</option>
+      </select>
+    </li>
+    <li>휴대전화</li>
+    <li>
+      <select name="phone" class="id6">
+        <option value="">대한민국 +82</option>
+      </select>
+    </li>
+    <div class="clearfix">
+    <li><input type="text" for="birth" class="id7" placeholder="전화번호 입력"></li>
+    <div class="rap">
+      <a href="#">인증번호받기</a>
+    </div>
+    </div>
+    <li><input type="text" for="birth" class="id1" placeholder="인증번호를 입력하세요"></li>
+    <div class="final">
+      <a href="#">가입하기</a>
+    </div>
+    <footer>
+      <div class="footer">
+        이용약관 | <span>개인정보처리방침</span> | 책임의 한계와 법적고지 | 회원정보 고객센터
+      </div>
+      <div class="footer">
+        <a href="http://www.navercorp.com">ⓒNAVER Corp.</a>
+      </div>
+    </footer>
+  </div>
+  </ul>
+</form>
+ </div>
+</div>
+</body>
+</html>
